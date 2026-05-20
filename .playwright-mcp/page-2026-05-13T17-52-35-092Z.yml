@@ -1,0 +1,27 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e6]:
+        - list
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - button "English" [ref=e9] [cursor=pointer]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - link "Back" [ref=e13] [cursor=pointer]:
+        - /url: /appointment/terms-of-use
+        - generic [ref=e15]: Back
+      - generic [ref=e17]:
+        - heading "Pick your organization" [level=3] [ref=e18]
+        - paragraph [ref=e19]: Please enter your employer or organization name
+        - generic [ref=e20]:
+          - generic [ref=e21]: OrganizationId
+          - combobox [ref=e22]
+          - combobox "Type here..." [expanded] [ref=e25] [cursor=pointer]:
+            - textbox [ref=e26]
+            - listbox [expanded] [ref=e29]:
+              - alert [ref=e30]: Please enter 3 or more characters
+        - button "Continue" [disabled] [ref=e28]
+  - searchbox [active] [ref=e33]
