@@ -6,7 +6,7 @@ test('Welcome page test', async ({ page }) => {
   const welcomePage = new WelcomePage(page);
 
   // Navigate to the appointment page
- // console.log('Navigating to the welcome page...');
+  console.log('Navigating to the welcome page...');
 
   await welcomePage.goto();
 
