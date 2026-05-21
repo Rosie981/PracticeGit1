@@ -6,8 +6,8 @@ test('Welcome page test', async ({ page }) => {
   const welcomePage = new WelcomePage(page);
 
   // Navigate to the appointment page
-  console.log("Practive PRG process");
-  console.log("Navigate to the welcome page");
+  console.log("Practive PR process");
+ 
 
   await welcomePage.goto();
 
